@@ -1,0 +1,56 @@
+:root {
+  --primary: rgb(26, 175, 23);
+  --light-green: rgb(199, 226, 199);
+  --dark-green: rgb(7, 69, 6);
+  --secondary: rgb(255, 245, 0);
+  --black: rgb(52, 64, 84);
+  --grey: #D0D5DD;
+  --light-grey: #F2F4F7;
+  --link: rgb(22, 127, 225);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: var(--light-grey);
+  color: var(--black);
+}
+
+.header {
+  background-color: var(--primary);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+  background: white;
+}
+
+h2 {
+  color: var(--dark-green);
+  margin-top: 2rem;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--light-green);
+  margin-top: 3rem;
+}
